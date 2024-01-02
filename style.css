@@ -448,9 +448,19 @@ section .title {
 .skills .skills-content .right .java::before {
     width: 30%;
 }
+.skills .skills-content .right .python::before {
+    width: 20%;
+}
 
 .skills .skills-content .right .react::before {
     width: 20%;
+}
+
+.skills .skills-content .right .node::before {
+    width: 20%;
+}
+.skills .skills-content .right .jquery::before {
+    width: 40%;
 }
 
 .skills .skills-content .right .typescript::before {
@@ -472,6 +482,18 @@ section .title {
 .skills .skills-content .right .mysql::before {
     width: 30%;
 }
+.skills .skills-content .right .mongo::before {
+    width: 30%;
+}
+.skills .skills-content .right .oracle::before {
+    width: 30%;
+}
+.skills .skills-content .right .firebase::before {
+    width: 30%;
+}
+
+
+
 
 /* projects section style */
 .projects {
