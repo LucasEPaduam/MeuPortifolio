@@ -456,6 +456,10 @@ section .title {
     width: 20%;
 }
 
+.skills .skills-content .right .angular::before {
+    width: 10%;
+}
+
 .skills .skills-content .right .node::before {
     width: 20%;
 }
