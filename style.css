@@ -799,11 +799,25 @@ footer span a:hover {
 
 @media (max-width: 690px) {
   .max-width {
-    padding: 0 0px;
+    padding: 0px 0px 0px 10%;
+  }
+
+  .about .about-content .right .text {
+    font-size: 25px;
+  }
+
+  .about .about-content .right p {
+    font-size: 15px;
+    padding-right: 10%;
   }
 
   .services .serv-content .card {
-    width: 100%;
+    width: 60%;
+    margin-left: 15%;
+  }
+
+  .skills .skills-content .right .bars-card {
+    width: 80%;
   }
 
   .contact .contact-titulo {
@@ -816,7 +830,7 @@ footer span a:hover {
     margin-right: 0px;
   }
 
-  @media (max-width: 590px) {
+  @media (max-width: 660px) {
     .contact .contact-titulo {
       font-size: 100px;
     }
